@@ -12,6 +12,8 @@
 		625EC0B420F329740054396F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 625EC0B220F329740054396F /* Main.storyboard */; };
 		625EC0B620F329760054396F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 625EC0B520F329760054396F /* Assets.xcassets */; };
 		625EC0B920F329760054396F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 625EC0B720F329760054396F /* LaunchScreen.storyboard */; };
+		625EC1DA20F47AC10054396F /* RegionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625EC1D920F47AC10054396F /* RegionProtocol.swift */; };
+		625EC1DC20F47AE90054396F /* RegionDelagateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625EC1DB20F47AE90054396F /* RegionDelagateProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		625EC0B520F329760054396F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		625EC0B820F329760054396F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		625EC0BA20F329760054396F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		625EC1D920F47AC10054396F /* RegionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionProtocol.swift; sourceTree = "<group>"; };
+		625EC1DB20F47AE90054396F /* RegionDelagateProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionDelagateProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				625EC0B520F329760054396F /* Assets.xcassets */,
 				625EC0B720F329760054396F /* LaunchScreen.storyboard */,
 				625EC0BA20F329760054396F /* Info.plist */,
+				625EC1D920F47AC10054396F /* RegionProtocol.swift */,
+				625EC1DB20F47AE90054396F /* RegionDelagateProtocol.swift */,
 			);
 			path = Geofencing;
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				625EC1DC20F47AE90054396F /* RegionDelagateProtocol.swift in Sources */,
 				625EC0B120F329740054396F /* ViewController.swift in Sources */,
 				625EC0AF20F329740054396F /* AppDelegate.swift in Sources */,
+				625EC1DA20F47AC10054396F /* RegionProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
